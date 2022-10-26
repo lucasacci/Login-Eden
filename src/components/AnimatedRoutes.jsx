@@ -14,10 +14,10 @@ export const AnimatedRoutes = () => {
   return (
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-                <Route exact path="/" element={<Form />} />
-                <Route exact path="/form2" element={<Form2 />} />
-                <Route exact path="/form3" element={<Form3 />} />
-                <Route exact path="/form4" element={<Form4 />} />
+                <Route  path="/" element={<Form />} />
+                <Route  path="/form2" element={<Form2 />} />
+                <Route  path="/form3" element={<Form3 />} />
+                <Route  path="/form4" element={<Form4 />} />
         </Routes>
     </AnimatePresence>
   )
