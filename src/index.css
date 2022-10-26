@@ -1,0 +1,50 @@
+
+#root{
+  min-height: 100vh;
+}
+
+.logo-width{
+  width: 100px;
+}
+
+button{
+  background-color: #5851D3!important;
+}
+
+.divColumn{
+  width: 350px;
+}
+
+.squareButton{
+  height: 200px;
+  width: 200px;
+}
+
+.btnForm3{
+  background-color: white !important;
+  border-color: gray;
+  border-radius: 10px;
+  border-width: 1.5px;
+}
+
+.btnForm3:focus{
+  border-color: #5851D3;
+  border-width: 2px;
+}
+
+i{
+  color:  #5851D3!important;
+}
+
+
+@media screen and (max-width: 850px) {
+  .responsiveButton{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+  }
+}
